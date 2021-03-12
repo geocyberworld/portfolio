@@ -1,0 +1,435 @@
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+
+}
+
+
+
+header{
+  width:100%;
+  height: 900px;
+  border:1px solid red;
+  
+  justify-content:space-around;
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.h_utils{
+ display: flex;
+ justify-content: space-around;
+}
+
+.m_header{
+      
+      position: relative;
+      top:10px;
+      color:rgb(144, 144, 204)
+
+}
+
+nav.main_nav{
+    width:500px;
+    height: 50px;
+    
+    position: relative;
+    top:30px;
+
+
+
+
+
+
+}
+.nav_list{
+  display: flex;
+
+
+
+
+}
+.nav_li{
+  list-style-type: none;
+  margin-left:10px;
+  font-size: 15px;
+  color: rgb(144, 144, 204)
+}
+
+
+.headings_of_site{
+     position: relative;
+     top:300px;
+     left:30%;
+     width:900px;
+
+
+
+
+}
+
+.main_heading{
+  color:rgb(144, 144, 204);
+
+}
+
+.btn{
+      width:300px;
+      height:50px;
+      border:1px solid white;
+      background-color:#00a5ff;
+      margin-top:100px;
+      border-radius: 30px;
+      text-align: center;
+      position: relative;
+      left:90px;
+
+}
+
+.btn h3{
+   color:white;
+   margin-top:10px;
+
+}
+
+.services{
+  display: flex;
+  margin-top: 50px;
+  width:100%;
+  height: 500px;
+
+
+
+
+}
+.serv_head{
+  position: relative;
+  left:38%;
+  display: flex;
+  flex-direction: row;
+  
+   
+
+}
+
+
+.serv_item1{
+    width:200px;
+    height: 200px;
+    border:1px solid black;
+    margin-top:100px;
+
+  
+
+
+}
+
+
+.serv_item1{
+  width:500px;
+  height: 200px;
+  border:1px solid black;
+  margin-top:100px;
+  
+
+
+
+}
+
+
+.serv_item1{
+  width:500px;
+  height: 200px;
+  border:1px solid black;
+  margin-top:150px;
+  margin-right:50px;
+  text-align: center;
+
+
+
+}
+
+
+.serv_item2{
+  width:500px;
+  height: 200px;
+  border:1px solid black;
+  margin-top:150px;
+  margin-right:50px;
+  text-align: center;
+
+
+}
+
+.serv_item3{
+  width:500px;
+  height: 200px;
+  border:1px solid black;
+  margin-top:150px;
+  margin-right:50px;
+  text-align: center;
+
+
+}
+
+
+
+.serv_item4{
+  width:500px;
+  height: 200px;
+  border:1px solid black;
+  margin-top:150px;
+  margin-right:50px;
+  text-align: center;
+  
+  
+  
+
+
+
+}
+.nav_li a{
+   text-decoration: none;
+   color:rgb(144, 144, 204);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.folio_head{
+   position: relative;
+   left:38%;
+
+
+
+}
+
+.portfolio{
+   width:100%;
+   height: 800px;
+   background-color: #f5f6f8;
+   overflow-x: hidden;
+
+
+
+
+}
+
+nav.polio_nav{
+ position:relative;
+ left:25%;
+ top:80px;
+ width:100px;
+ display: flex;
+
+
+
+}
+
+nav.polio_nav ul {
+display: flex;
+
+
+
+
+
+}
+
+nav.polio_nav ul li {
+  display: flex;
+  margin-right: 90px;
+  
+  
+  
+  
+  }
+  
+
+  .works{
+     width:90%;
+     height: 400px;
+    
+     position: relative;
+     top:100px;
+     left:100px;
+     display: flex;
+     
+
+
+
+  }
+
+  .works_item{
+     width:90%;
+     height: 70%;
+    border:1px dotted black;
+     margin-right: 20px;
+
+  }
+     
+  .btn2{
+    width:300px;
+    height:50px;
+    border:1px solid white;
+    background-color:#00a5ff;
+    margin-top:100px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    left:35%;
+    color:white;
+    text-align: center;
+    
+
+  }
+
+  .btn2 h2{
+    margin-top:5px;
+
+
+  }
+
+  .brands{
+
+     width:100%;
+     height: 500px;
+     position: relative;
+     top:100px;
+     overflow-x: hidden;
+
+
+  }
+
+  .brands_head{
+
+     position: relative;
+     left:30%;
+     overflow-x: hidden;
+
+
+  }
+
+
+  .coomin_soon{
+
+    position: relative;
+    left:30%;
+    overflow-x: hidden;
+    margin-top:50px;
+
+
+
+  }
+
+  .Testimonials{
+    width:100%;
+     height: 500px;
+     position: relative;
+     top:100px;
+     overflow-x:hidden;
+     background-color: #f5f6f8;
+
+
+
+
+
+  }
+
+  .test_head{
+
+    position: relative;
+    left:30%;
+    overflow-x: hidden;
+    margin-top:50px;
+
+
+  }
+
+  .contacts{
+    width:100%;
+    height:700px;
+    background-color: #3b404c;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    margin-top:10px;
+  }
+  .contacts_head{
+    position: relative;
+    left:20%;
+    top:150px;
+    overflow-x: hidden;
+    color:white;
+
+
+  }
+  .adress_head{
+     color:white;
+     position: relative;
+     left: 20%;
+     top:300px;
+
+
+
+
+  }
+
+  .adress_items{
+    color:white;
+    position: relative;
+    left:20%;
+    top:320px;
+
+  }
+
+  .mail_head{
+    color:white;
+    position: relative;
+    left:20%;
+    top:400px;
+
+
+  }
+
+  .mail_item{
+    color:white;
+    position: relative;
+    left:20%;
+    top:420px;
+
+
+  }
+.socials{
+   display: flex;
+   position: relative;
+   top:500px;
+   left:20%;
+   bottom: 50px;
+
+
+
+
+
+}
+
+.fb_img{
+  height: 100px;
+  width:100px;
+}
+
+.socials li{
+  list-style-type: none;
+  margin-left:10px;
+}
+  
+
