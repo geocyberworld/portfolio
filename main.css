@@ -97,6 +97,10 @@ nav.main_nav{
 
 }
 
+.btn a{
+   text-decoration: none;
+}
+
 .btn h3{
    color:white;
    margin-top:10px;
